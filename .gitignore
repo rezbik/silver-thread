@@ -1,0 +1,32 @@
+## Игнорируем промежуточные папки сборки и конфигурации компилятора
+[Db]dgiph/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+
+## Временная папка настроек самой Visual Studio
+.vs/
+
+## Файлы сборки, объектные файлы и кэш компилятора
+*.obj
+*.ilk
+*.pdb
+*.tlog
+*.lastbuildstate
+*.idb
+*.recipe
+*.log
+
+## Базы данных IntelliSense и файлы конфигурации пользователя
+*.ncb
+*.suo
+*.user
+*.aps
+*. Roberto
+*.db
+*.opendb
+
+## Логи и отчеты MSBuild
+*.vcxproj.user
