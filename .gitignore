@@ -1,32 +1,67 @@
-## Игнорируем промежуточные папки сборки и конфигурации компилятора
-[Db]dgiph/
-[Dd]ebug/
-[Rr]elease/
-x64/
-x86/
-build/
-
-## Временная папка настроек самой Visual Studio
-.vs/
-
-## Файлы сборки, объектные файлы и кэш компилятора
-*.obj
-*.ilk
-*.pdb
-*.tlog
-*.lastbuildstate
-*.idb
-*.recipe
-*.log
-
-## Базы данных IntelliSense и файлы конфигурации пользователя
-*.ncb
+# --- Visual Studio ---
+## User-specific files
+*.rsuser
 *.suo
 *.user
-*.aps
-*. Roberto
-*.db
-*.opendb
+*.userosscache
+*.sln.docstates
 
-## Логи и отчеты MSBuild
-*.vcxproj.user
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio cache files
+.vs/
+*.opendb
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+
+## Compiled Object files
+*.obj
+
+## Precompiled Headers
+*.pch
+
+## So files
+*.so
+*.dylib
+*.dll
+
+## Executables
+*.exe
+*.out
+*.app
+
+# --- CMake and Ninja ---
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+*.ninja
+.ninja_deps
+.ninja_log
+build/
+out/
+
+# --- General ---
+## Backup files
+*~
+*.swp
+*.orig
